@@ -1,17 +1,15 @@
-
+let flag = false;
 let num = 13;
-let factor = 0;
 
-for(let i = 1; i <= n; i++){
+for(let i = 0; i <= n; i++){
 	if(num % i == 0){
-	factor++;
-	}
-    }
-
-if(factor==2){
-console.log("Prime");
+		flag = true;
 	}else{
-    console.log("Not Prime");
- }
-		
+		falg = false;
+	}
 
+if(flag == true){
+	console.log("Prime");
+	}else{
+	console.log("Not Prime");
+	}
