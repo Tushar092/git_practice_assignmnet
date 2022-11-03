@@ -1,3 +1,4 @@
+
 let num = 13;
 let factor = 0;
 
@@ -12,3 +13,4 @@ console.log("Prime");
 	}else{
     console.log("Not Prime");
  }
+}
